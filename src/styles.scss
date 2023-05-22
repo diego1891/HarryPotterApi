@@ -1,0 +1,36 @@
+ /************************** VARS ******************************/
+ $ravenclaw1: #0e1a40;
+ $ravenclaw2: #222f5b;
+ $ravenclaw3: #5d5d5d;
+ $ravenclaw4: #946b2d;
+ $ravenclaw5: #000000;
+ $hufflepuff1: #ecb939;
+ $hufflepuff2: #f0c75e;
+ $hufflepuff3: #726255;
+ $hufflepuff4: #372e29;
+ $hufflepuff5: #000000;
+ $gryffindor1: #890001;
+ $gryffindor2: #9f0000;
+ $gryffindor3: #d8a40e;
+ $gryffindor4: #e1b43d;
+ $gryffindor5: #000000;
+ $slytherin1: #1a472a ;
+ $slytherin2: #2a623d;
+ $slytherin3: #5d5d5d;
+ $slytherin4: #aaaaaa;
+ $slytherin5: #000000;
+
+
+/************************** FONTS ******************************/
+@font-face {
+    font-family: 'Hogwarts';
+    src: url('./Fonts/MagicSchoolOne.ttf') format('truetype');
+  }
+@font-face {
+    font-family: 'Hogwarts2';
+    src: url('./Fonts/MagicSchoolTwo.ttf') format('truetype');
+  }
+@font-face{
+    font-family: 'Harry';
+    src: url('./Fonts/harry.TTF') format(truetype)
+}

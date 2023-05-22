@@ -1,0 +1,87 @@
+@import "../../styles.scss";
+
+.header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    //background-color: #4682B4 ;
+    opacity: 0.9;
+    .btns{
+        display: flex;
+        justify-content: space-around;
+        width: 600px;
+        .Gryfbtn{
+            color: white;
+            background-color: $gryffindor2;
+            height: 80px;
+            width: 80%;
+            border-radius: 5px;
+            border-color: $gryffindor2;
+            margin: 2px;
+            font-family: 'Harry';
+            font-size: x-large;
+            opacity: 0.5;
+        }
+        .Slytbtn{
+            color: white;
+            background-color: $slytherin1;
+            height: 80px;
+            width: 80%;
+            border-radius: 5px;
+            border-color: $slytherin1;
+            margin: 2px;
+            font-family: 'Harry';
+            font-size: x-large;
+            opacity: 0.5;
+        }
+        .Hufflbtn{
+            color: white;
+            background-color: $hufflepuff1;
+            height: 80px;
+            width: 80%;
+            border-radius: 5px;
+            border-color: $hufflepuff2;
+            margin: 2px;
+            font-family: 'Harry';
+            font-size: x-large;
+            opacity: 0.5;
+        }
+        .Ravbtn{
+            color: white;
+            background-color: $ravenclaw1;
+            height: 80px;
+            width: 80%;
+            border-radius: 5px;
+            border-color: $ravenclaw1;
+            margin: 2px;
+            font-family: 'Harry';
+            font-size: x-large;
+            opacity: 0.5;
+        }
+        .Gryfbtn:hover{
+            color: $gryffindor2;
+            background-color: white;
+            border-color: white;
+            opacity: 1;
+        }
+        .Slytbtn:hover{
+            color: $slytherin1;
+            background-color: white;
+            border-color: white;
+            opacity: 1;
+        }
+        .Hufflbtn:hover{
+            color: $hufflepuff1;
+            background-color: white;
+            border-color: white;
+            opacity: 1;
+        }
+        .Ravbtn:hover{
+            color: $ravenclaw1;
+            background-color: white;
+            border-color: white;
+            opacity: 1;
+        }
+    }
+}
