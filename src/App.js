@@ -1,9 +1,8 @@
 import React, { useState } from 'react';
-import Homenavbar from './Components/navbars/homenavbar';
-import Gryffindor from './Components/houses/gryffindor/gryffindor';
+import Homenavbar from './components/navbars/homenavbar';
+import Home from './components/bodys/home'
 import './App.scss';
-import 'bootstrap/dist/css/bootstrap.css';
-import Home from './Components/bodys/home';
+import Gryffindor from './components/houses/gryffindor/gryffindor';
 
 
 const App = () => {
@@ -18,10 +17,3 @@ const App = () => {
 };
 
 export default App;
-      // <BrowserRouter>
-      //     <Homenavbar/>
-      //   <Routes>
-      //     <Route exact path="/" element={<Home/>}/>
-      //     <Route exact path="/gryffindor" element={<Gryffindor/>}/>
-      //   </Routes>
-      // </BrowserRouter>

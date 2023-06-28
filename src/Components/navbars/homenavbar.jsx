@@ -1,6 +1,7 @@
 import { useNavigate } from "react-router-dom";
+import { useState,useEffect } from "react";
 import "./Homenavbar.scss"
-import { fetchCharacter, fetchAllCharacters } from "../../ApiService/Api";
+import { fetchCharacter, fetchAllCharacters } from "../../apiService/Api";
 
 
 
@@ -10,6 +11,15 @@ const Homenavbar = ({setCharacter}) => {
   const handleButtonClick=({ruta})=>{
     navegar(ruta)
   }*/
+  const [characters, setCharacters] = useState([]);
+  useEffect(() => {
+    const getData = async () => {
+      var data = await fetchAllCharacters();
+      setCharacters(data);
+    };
+    getData();
+  }, []);
+
   let inputValue;
   let handleEnter = async (event)=>{
     if(event.key==='Enter'){
@@ -20,8 +30,7 @@ const Homenavbar = ({setCharacter}) => {
     }
   }
   let handleClick = async ()=>{
-    let response = await fetchAllCharacters();
-    setCharacter (response.data);
+
   }
   return (
     <div className="header">
